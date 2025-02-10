@@ -5,12 +5,12 @@ import { SidebarComponent } from './layout/sidebar/sidebar.component';
 import { ContentWrapperComponent } from './layout/content-wrapper/content-wrapper.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { ControlSidebarComponent } from './layout/control-sidebar/control-sidebar.component';
-import { MainHeaderComponent } from './main-header/main-header.component';
+import { SmallBoxComponent } from './components/small-box/small-box.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, SidebarComponent, ContentWrapperComponent, FooterComponent,ControlSidebarComponent, MainHeaderComponent],
+  imports: [RouterOutlet, HeaderComponent, SidebarComponent, ContentWrapperComponent, FooterComponent,ControlSidebarComponent,SmallBoxComponent,],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
